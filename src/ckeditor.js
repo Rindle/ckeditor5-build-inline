@@ -27,6 +27,9 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
+import Mention from '@ckeditor/ckeditor5-mention/src/mention';
+import PendingActions from '@ckeditor/ckeditor5-core/src/pendingactions';
 
 export default class InlineEditor extends InlineEditorBase {}
 
@@ -52,7 +55,10 @@ InlineEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableToolbar
+	TableToolbar,
+	Autosave,
+	Mention,
+	PendingActions
 ];
 
 // Editor configuration.
