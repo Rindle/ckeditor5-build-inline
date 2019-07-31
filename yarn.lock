@@ -489,6 +489,10 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
+"@wwalc/ckeditor5-emoji@^11.0.2":
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/@wwalc/ckeditor5-emoji/-/ckeditor5-emoji-11.0.2.tgz#9cb5b54c86fde25a1b8e0b45ac75d3eeb8477122"
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -4715,7 +4719,7 @@ watchpack@^1.5.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
-webpack-cli@^3.0.8:
+webpack-cli@^3.3.6:
   version "3.3.6"
   resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-3.3.6.tgz#2c8c399a2642133f8d736a359007a052e060032c"
   dependencies:
