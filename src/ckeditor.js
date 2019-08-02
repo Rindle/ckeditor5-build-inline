@@ -30,7 +30,6 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import PendingActions from '@ckeditor/ckeditor5-core/src/pendingactions';
-import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 
 export default class InlineEditor extends InlineEditorBase {}
 
@@ -59,8 +58,7 @@ InlineEditor.builtinPlugins = [
 	TableToolbar,
 	Autosave,
 	Mention,
-	PendingActions,
-	Emoji
+	PendingActions
 ];
 
 // Editor configuration.
@@ -79,8 +77,7 @@ InlineEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo',
-			'emoji'
+			'redo'
 		]
 	},
 	image: {
