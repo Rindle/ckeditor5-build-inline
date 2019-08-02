@@ -90,7 +90,5 @@
       "pre-commit": "lint-staged"
     }
   },
-  "dependencies": {
-    "@wwalc/ckeditor5-emoji": "^11.0.2"
-  }
+  "dependencies": {}
 }
