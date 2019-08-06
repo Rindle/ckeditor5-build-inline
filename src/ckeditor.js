@@ -22,7 +22,7 @@ import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
-import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
+// import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
@@ -51,7 +51,7 @@ InlineEditor.builtinPlugins = [
 	ImageUpload,
 	Link,
 	List,
-	MediaEmbed,
+	// MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
 	Table,
@@ -75,7 +75,7 @@ InlineEditor.defaultConfig = {
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
-			'mediaEmbed',
+			// 'mediaEmbed',
 			'undo',
 			'redo'
 		]
